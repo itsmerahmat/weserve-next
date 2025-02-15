@@ -54,7 +54,7 @@ export default function HeroSection() {
             </p>
           </div>
           <div>
-            <h1 className="lg:text-[70px] text-[40px] text-indigo-950 font-['Clash_Display'] font-bold leading-none mb-3">
+            <h1 className="lg:text-[70px] text-[40px] text-indigo-950 font-clashDisplay font-bold leading-none mb-3">
               Grow Online <br />
               Business Faster.
             </h1>

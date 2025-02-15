@@ -1,7 +1,7 @@
 export default function BenefitSection() {
   return (
     <section className="benefits max-w-6xl mx-auto py-12 md:px-8 px-4 xl:px-0">
-      <h3 className="text-[34px] md:text-5xl text-indigo-950 font-['Clash_Display'] text-center font-bold mb-10">
+      <h3 className="text-[34px] md:text-5xl text-indigo-950 font-clashDisplay text-center font-bold mb-10">
         Your Best Choice
       </h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-7 gap-y-8">

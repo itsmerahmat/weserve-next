@@ -10,7 +10,7 @@ import FooterSection from "@/components/section/footer";
 
 export default function Landing() {
   return (
-    <div className="font-[family-name:var(--font-poppins)]">
+    <div className="font-poppins">
       <NavbarSection />
       <HeroSection />
       <BrandSection />

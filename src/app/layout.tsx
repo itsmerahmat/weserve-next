@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
 import "./globals.css";
+import { Poppins } from "next/font/google";
+import localFont from "next/font/local";
 
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
+const clashDisplay = localFont({
+  src: "../../public/fonts/ClashDisplay-Semibold.woff2",
+  style: "normal",
+  variable: "--font-clash-display",
 });
 
 export const metadata: Metadata = {
@@ -21,8 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} 
-      antialiased`}
+        className={`${poppins.variable} ${clashDisplay.variable} antialiased`}
       >
         {children}
       </body>

@@ -5,7 +5,7 @@ export default function ShowcaseSection() {
     <section className="mx-auto py-12 md:px-8 px-4 xl:px-0">
       <div className="flex flex-col gap-y-7">
         <div className="flex flex-col text-center">
-          <h3 className="text-[34px] lg:text-5xl text-indigo-950 font-['Clash_Display'] font-bold mb-5">
+          <h3 className="text-[34px] lg:text-5xl text-indigo-950 font-clashDisplay font-bold mb-5">
             Our Showcase
           </h3>
           <p className="text-base leading-lg text-gray-500">

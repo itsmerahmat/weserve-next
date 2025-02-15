@@ -53,7 +53,7 @@ export default function FeatureSection() {
               </p>
             </div>
             <div>
-              <h3 className="leading-tight md:leading-lg text-[34px] lg:text-5xl text-white font-['Clash_Display'] font-bold mb-5">
+              <h3 className="leading-tight md:leading-lg text-[34px] lg:text-5xl text-white font-clashDisplay font-bold mb-5">
                 Start Growing Today
               </h3>
               <p className="text-base leading-loose text-white">

@@ -15,7 +15,7 @@ export default function GrowthSection() {
         </div>
         <div className="flex flex-col text-left gap-y-10 basis-2/4">
           <div>
-            <h3 className="leading-tight md:leading-lg text-[34px] lg:text-5xl text-indigo-950 font-['Clash_Display'] font-bold mb-5">
+            <h3 className="leading-tight md:leading-lg text-[34px] lg:text-5xl text-indigo-950 font-clashDisplay font-bold mb-5">
               We Have Very
               <br className="hidden lg:block" />
               Strong Ecosystem
