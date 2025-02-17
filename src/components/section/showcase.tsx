@@ -26,7 +26,7 @@ export default function ShowcaseSection() {
             </div>
             <Image
               src="/assets/showcase1.png"
-              alt=""
+              alt="showcase1"
               className="w-[320px] h-[220px] border-0 group-hover:border-4 border-violet-700 rounded-[16px] transition-all ease-in-out duration-500"
               width={320}
               height={220}
@@ -43,7 +43,7 @@ export default function ShowcaseSection() {
             </div>
             <Image
               src="/assets/showcase2.png"
-              alt=""
+              alt="showcase2"
               className="w-[320px] h-[220px] border-0 group-hover:border-4 border-violet-700 rounded-[16px] transition-all ease-in-out duration-500"
               width={320}
               height={220}
@@ -60,7 +60,7 @@ export default function ShowcaseSection() {
             </div>
             <Image
               src="/assets/showcase3.png"
-              alt=""
+              alt="showcase3"
               className="w-[320px] h-[220px] border-0 group-hover:border-4 border-violet-700 rounded-[16px] transition-all ease-in-out duration-500"
               width={320}
               height={220}
@@ -77,7 +77,7 @@ export default function ShowcaseSection() {
             </div>
             <Image
               src="/assets/showcase4.png"
-              alt=""
+              alt="showcase4"
               className="w-[320px] h-[220px] border-0 group-hover:border-4 border-violet-700 rounded-[16px] transition-all ease-in-out duration-500"
               width={320}
               height={220}

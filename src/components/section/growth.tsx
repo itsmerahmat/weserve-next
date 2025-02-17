@@ -8,7 +8,7 @@ export default function GrowthSection() {
           <Image
             src="/assets/illustration-features.png"
             className="h-[360px] lg:h-[550px]"
-            alt=""
+            alt="illustration-features"
             width={500}
             height={360}
             style={{ width: "auto", height: "auto" }}
