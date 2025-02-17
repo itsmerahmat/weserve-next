@@ -16,28 +16,21 @@ const clashDisplay = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Weserve - A platform for server providers and clients",
+  title: "Weserve - Server providers",
   description:
     "We provide a variety of servers to grow your users acquisition much user-friendly and boosting up sales.",
   keywords: ["server", "provider", "client", "service", "platform"],
-  metadataBase: new URL("https://weserve-next.vercel.app/"),
+  metadataBase: new URL("https://weserve-next.vercel.app"),
   creator: "Build With Angga",
   publisher: "Rahmat Budianoor",
   openGraph: {
-    title: "Weserve - A platform for server providers and clients",
+    type: "website",
+    url: "https://weserve-next.vercel.app",
+    title: "Weserve - Server providers",
     description:
       "We provide a variety of servers to grow your users acquisition much user-friendly and boosting up sales.",
-    url: "https://weserve-next.vercel.app/",
-    type: "website",
     siteName: "Weserve",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 513,
-        height: 123,
-        alt: "Weserve - A platform for server providers and clients",
-      },
-    ],
+    images: ["opengraph-image.png"],
   },
 };
 
