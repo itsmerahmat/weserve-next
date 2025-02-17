@@ -11,6 +11,7 @@ export default function GrowthSection() {
             alt=""
             width={500}
             height={360}
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
         <div className="flex flex-col text-left gap-y-10 basis-2/4">
@@ -30,9 +31,10 @@ export default function GrowthSection() {
             <div className="flex bg-white rounded-2xl p-5 items-center gap-x-3">
               <Image
                 src="/svgs/health.svg"
-                width={47}
-                height={47}
+                width={0}
+                height={0}
                 alt="growth-1"
+                className="w-[47px] h-auto"
               />
               <div>
                 <h3 className="font-bold text-xl">$880 Mio</h3>
@@ -42,9 +44,10 @@ export default function GrowthSection() {
             <div className="flex bg-white rounded-2xl p-5 items-center gap-x-3">
               <Image
                 src="/svgs/cpu-charge.svg"
-                width={47}
-                height={47}
+                width={0}
+                height={0}
                 alt="growth-2"
+                className="w-[47px] h-auto"
               />
               <div>
                 <h3 className="font-bold text-xl">450,392</h3>
@@ -54,9 +57,10 @@ export default function GrowthSection() {
             <div className="flex bg-white rounded-2xl p-5 items-center gap-x-3">
               <Image
                 src="/svgs/cloud-add.svg"
-                width={47}
-                height={47}
+                width={0}
+                height={0}
                 alt="growth-3"
+                className="w-[47px] h-auto"
               />
               <div>
                 <h3 className="font-bold text-xl">189 Mio</h3>
@@ -76,9 +80,10 @@ export default function GrowthSection() {
             <a href="#" className="font-semibold text-violet-700 flex gap-x-2">
               <Image
                 src="/svgs/device-message.svg"
-                width={25}
-                height={25}
+                width={0}
+                height={0}
                 alt="device-message"
+                className="w-[25px] h-auto"
               />
               Schedule a Demo
             </a>

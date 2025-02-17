@@ -10,9 +10,10 @@ export default function BenefitSection() {
         <div className="item-card bg-white rounded-2xl p-7 gap-y-7 flex flex-col">
           <Image
             src="/svgs/hierarchy-square.svg"
-            width={47}
-            height={47}
+            width={0}
+            height={0}
             alt="benefit-1"
+            className="w-[47px] h-auto"
           />
           <div>
             <h3 className="font-semibold text-xl mb-2">Extra Layers</h3>
@@ -27,9 +28,10 @@ export default function BenefitSection() {
         <div className="item-card bg-white rounded-2xl p-7 gap-y-7 flex flex-col">
           <Image
             src="/svgs/3dcube.svg"
-            width={47}
-            height={47}
+            width={0}
+            height={0}
             alt="benefit-2"
+            className="w-[47px] h-auto"
           />
           <div>
             <h3 className="font-semibold text-xl mb-2">Customizable</h3>
@@ -88,9 +90,10 @@ export default function BenefitSection() {
           <div className="z-10 gap-y-7 flex flex-col">
             <Image
               src="/svgs/status-up-white.svg"
-              width={47}
-              height={47}
+              width={0}
+              height={0}
               alt="benefit-3"
+              className="w-[47px] h-auto"
             />
             <div>
               <h3 className="font-semibold text-white text-xl mb-2">
@@ -108,9 +111,10 @@ export default function BenefitSection() {
         <div className="item-card bg-white rounded-2xl p-7 gap-y-7 flex flex-col">
           <Image
             src="/svgs/driver-refresh.svg"
-            width={47}
-            height={47}
+            width={0}
+            height={0}
             alt="benefit-4"
+            className="w-[47px] h-auto"
           />
           <div>
             <h3 className="font-semibold text-xl mb-2">Auto-Scaling</h3>

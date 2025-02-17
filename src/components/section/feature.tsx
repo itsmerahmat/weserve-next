@@ -32,9 +32,10 @@ export default function FeatureSection() {
               <a href="#" className="font-semibold text-white flex gap-x-2">
                 <Image
                   src="/svgs/device-message-white.svg"
-                  width={25}
-                  height={25}
+                  width={0}
+                  height={0}
                   alt="device-message"
+                  className="w-[25px] h-auto"
                 />
                 Schedule a Demo
               </a>
@@ -44,18 +45,20 @@ export default function FeatureSection() {
             <div className="bg-white rounded-2xl flex py-5 md:py-[40px] h-fit flex-col gap-y-5 items-center">
               <Image
                 src="/svgs/scroll.svg"
-                width={47}
-                height={47}
+                width={0}
+                height={0}
                 alt="scroll"
+                className="w-[47px] h-auto"
               />
               <h3 className="text-indigo-950 font-bold text-lg">Web Crawl</h3>
             </div>
             <div className="bg-white rounded-2xl flex py-5 md:py-[40px] h-fit flex-col gap-y-5 items-center">
               <Image
                 src="/svgs/cpu-charge.svg"
-                width={47}
-                height={47}
+                width={0}
+                height={0}
                 alt="growth-2"
+                className="w-[47px] h-auto"
               />
               <h3 className="text-indigo-950 font-bold text-lg">Fast Report</h3>
             </div>

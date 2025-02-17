@@ -164,9 +164,10 @@ export default function FaqSection() {
                   <a href="#" className="text-white flex gap-x-2">
                     <Image
                       src="/svgs/device-message-white.svg"
-                      width={25}
-                      height={25}
+                      width={0}
+                      height={0}
                       alt="device-message"
+                      className="w-[25px] h-auto"
                     />
                     Send e-mail to us for other questions
                   </a>

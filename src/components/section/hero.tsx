@@ -32,9 +32,10 @@ export default function HeroSection() {
             <a href="#" className="font-semibold text-violet-700 flex gap-x-2">
               <Image
                 src="/svgs/device-message.svg"
-                width={25}
-                height={25}
+                width={0}
+                height={0}
                 alt="device-message"
+                className="w-[25px] h-auto"
               />
               Schedule a Demo
             </a>
@@ -47,6 +48,8 @@ export default function HeroSection() {
             alt="heroImage"
             width={550}
             height={397}
+            priority
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
       </div>

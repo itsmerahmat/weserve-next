@@ -7,10 +7,10 @@ export default function NavbarSection() {
         <div className="flex flex-row items-center justify-between">
           <Image
             src="/svgs/logo-light.svg"
-            className="h-[42px]"
+            className="w-[180px] h-auto object-cover"
             alt="logo"
-            width={180}
-            height={82}
+            width={0}
+            height={0}
           />
           <ul className=" flex-row gap-x-8 lg:flex hidden">
             <li>
@@ -42,7 +42,13 @@ export default function NavbarSection() {
           <div className="flex flex-row gap-x-4">
             <div className="bg-white flex items-center p-[10px] rounded-full">
               <a href="#">
-                <Image src="/svgs/bag-2.svg" width={25} height={25} alt="bag" />
+                <Image
+                  src="/svgs/bag-2.svg"
+                  width={0}
+                  height={0}
+                  alt="bag"
+                  className="w-[25px] h-auto"
+                />
               </a>
             </div>
             <a
