@@ -1,6 +1,15 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 
 export default function NavbarSection() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <nav className="navbar max-w-6xl mx-auto py-10 px-5 md:px-8 xl:px-0">
@@ -60,6 +69,7 @@ export default function NavbarSection() {
             <div
               id="btn-dropdown"
               className="lg:hidden bg-white flex items-center p-[10px] rounded-full"
+              onClick={toggleDropdown}
             >
               <a href="#">
                 <svg
@@ -96,7 +106,9 @@ export default function NavbarSection() {
 
       <div
         id="dropdown-menu"
-        className="megamenu absolute top-28 justify-center flex flex-col hidden px-5 lg:hidden md:px-10 w-full"
+        className={`megamenu absolute top-28 justify-center flex flex-col ${
+          isOpen ? "flex" : "hidden"
+        } px-5 lg:hidden md:px-10 w-full`}
       >
         <div className="flex flex-col bg-white p-5 md:p-8 rounded-2xl gap-y-5">
           <ul className="flex flex-col gap-y-5">
