@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Thank You
+
+I created this website as an experimental project to learn and try the features available in Next.js. I converted the [HTML](https://shaynakit.com/details/weserve-html5-responsive-design-template-landing-page) and [Figma designs](https://shaynakit.com/details/weserve-hosting-provider-website-design) from the "[ShaynaKit](https://shaynakit.com/landing)" template into the Next.js framework.
